@@ -1,0 +1,118 @@
+* {
+	font-family: 'Marcellus SC', serif;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #eee;
+	padding: 20px;
+}
+
+button, input {
+	font-family: 'Nobile', sans-serif;
+	height: 44px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+input {
+	margin-top: 20px;
+}
+
+h1 {
+	font-size: 47px;
+	text-align: center;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+h2 {
+	font-size: 100px;
+	text-align: center;
+	margin: 0;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+h6 {
+	font-size: 13px;
+}
+
+button {
+	background-color: #ccc;
+	color: #fff;
+	border: none;
+}
+
+button:hover {
+	background-color: #bbb;
+}
+
+.container-big {
+	max-width: 400px;
+	display: block;
+	margin: auto;
+}
+
+.guess-input {
+	width: 100px;
+	border: 1px solid #ccc;
+	height: 70px;
+	display: block;
+	margin: 20px auto 10px;
+	font-size: 38px;
+	text-align: center;
+}
+
+.guess-input::placeholder {
+	text-align: center;
+	font-size: 20px;
+	position: relative;
+	bottom: 4px;
+	opacity: .2;
+}
+
+.button-holder {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.guess-button,
+.clear-button {
+	width: 189px;
+}
+
+.guess-button,
+.clear-button,
+.reset-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+
+.reset-button {
+	width: 100%;
+	margin-top: 27px;
+}
+
+
+
+
+
+
