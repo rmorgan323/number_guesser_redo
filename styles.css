@@ -8,15 +8,49 @@ header {
 	padding: 20px;
 }
 
-button, input {
+button, .guess-input {
 	font-family: 'Nobile', sans-serif;
 	height: 44px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
-input {
-	margin-top: 20px;
+.input-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.input-container p {
+	font-size: 30px;
+}
+
+.range-containers {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.range-containers button {
+	border: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #ccc;
+	background-color: white;
+	cursor: pointer;
+	font-size: 30px;
+}
+
+.range-left,
+.range-right {
+	width: 80px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.light-arrows {
+	color: #eee;
 }
 
 h1 {
@@ -30,6 +64,7 @@ h2 {
 	font-size: 100px;
 	text-align: center;
 	margin: 0;
+	height: 115px;
 }
 
 h3 {
@@ -72,7 +107,7 @@ button:hover {
 	border: 1px solid #ccc;
 	height: 70px;
 	display: block;
-	margin: 20px auto 10px;
+	margin: 20px 0 10px;
 	font-size: 38px;
 	text-align: center;
 }

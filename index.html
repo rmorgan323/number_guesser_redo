@@ -15,19 +15,38 @@
 	</header>
 	<section>
 		<div class="container-big">
-			<input class="guess-input"  placeholder="guess"></input>
+
+			<div class="input-container">
+
+				<div class="range-containers">
+					<button class="up-arrow-left">&#8679</button>
+					<input class="range-left"></input>
+					<button class="down-arrow-left">&#8681</button>
+				</div>
+
+				<p class="light-arrows">&#8678</p>
+				<input class="guess-input" placeholder="guess"></input>
+				<p class="light-arrows">&#8680</p>
+
+				<div class="range-containers">
+					<button class="up-arrow-right">&#8679</button>
+					<input class="range-right"></input>
+					<button class="down-arrow-right">&#8681</button>
+				</div>
+			</div>
+
 			<div class="button-holder">
 				<button class="guess-button">guess</button>
 				<button class="clear-button">clear</button>
 			</div>
 
-			<h4>your last guess was</h4>
+			<h4 class="top-text">-</h4>
 
 
-			<h2>25</h2>
+			<h2 class="guess-display"></h2>
 
 
-			<h4>that is too high</h4>
+			<h4 class="bottom-text">-</h4>
 
 			<button class="reset-button">reset</button>
 		</div>
@@ -37,9 +56,8 @@
 
 
 
-
-
-
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="path/to/your/jquery.min.js"><\/script>')</script>
 	<script src="scripts.js"></script>
 </body>
 
